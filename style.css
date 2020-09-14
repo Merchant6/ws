@@ -24,6 +24,7 @@ body {
   text-align: center;
   color: #eeebc6;
   opacity: 1;
+  border-radius: 10px;
 }
 
 .topnav a:hover {
@@ -118,10 +119,27 @@ footer {
 
 .cform {
   text-align: center;
+  padding: 8%;
 }
 
-label .fname, .lname {
+label {
   text-align: center;
-  color: white;
+  color: #228b22;
   
 }
+
+.txa {
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+}
+
+span {
+  color: #228b22;
+}
+
+input {
+  background-color: lightgoldenrodyellow;
+  border-radius: 25px;
+}
+
+
